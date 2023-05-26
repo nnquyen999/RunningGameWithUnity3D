@@ -57,7 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\CudeMoving.cs" />
+    <Compile Include="Assets\Script\InputManager.cs" />
+    <Compile Include="Assets\Script\MovingByPoints.cs" />
     <Compile Include="Assets\Script\MousePositionController.cs" />
+    <Compile Include="Assets\Script\Moving.cs" />
+    <Compile Include="Assets\Script\FollowCamera.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Script\Movingkeyboard.cs" />
   </ItemGroup>

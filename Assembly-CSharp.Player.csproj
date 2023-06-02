@@ -56,29 +56,22 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
     <Compile Include="Assets\Script\CheckPointManager\ActionCheckPoint.cs" />
-    <Compile Include="Assets\Script\StickyPlatform.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
+    <Compile Include="Assets\Script\MovingPlatform\StickyPlatform.cs" />
     <Compile Include="Assets\Script\Machine\Trigger.cs" />
     <Compile Include="Assets\Script\CudeMoving.cs" />
     <Compile Include="Assets\Script\InputManager.cs" />
-    <Compile Include="Assets\Script\waytpointerFollowers.cs" />
-    <Compile Include="Assets\Script\PlayerLife.cs" />
+    <Compile Include="Assets\Script\MovingPlatform\waytpointerFollowers.cs" />
+    <Compile Include="Assets\Script\Player\PlayerLife.cs" />
     <Compile Include="Assets\Script\MovingPlatform\MovingByPoints.cs" />
     <Compile Include="Assets\Script\Machine\MachineController.cs" />
     <Compile Include="Assets\Script\MousePositionController.cs" />
     <Compile Include="Assets\Script\CheckPointManager\CheckPointLight.cs" />
     <Compile Include="Assets\Script\Moving.cs" />
     <Compile Include="Assets\Script\Machine\Action.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
     <Compile Include="Assets\Script\camerafollow\FollowCamera.cs" />
-    <Compile Include="Assets\Script\Movingkeyboard.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
+    <Compile Include="Assets\Script\Player\Movingkeyboard.cs" />
     <Compile Include="Assets\Script\Machine\ActionDisableAct.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
